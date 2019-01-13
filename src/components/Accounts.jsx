@@ -69,7 +69,6 @@ class Accounts extends React.Component {
 	render() {
     return (
       <div>
-				<h1>Accounts Component</h1>
         {this.props.accounts.map((account, index) => {
 					let toggler = `toggler${index}`;
 					let editingNumber = `isEditing${index+1}`
