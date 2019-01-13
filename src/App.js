@@ -24,6 +24,10 @@ class App extends Component {
 		}
 	}
 
+	editProfile = () => {
+		history.push('/edit-profile');
+	}
+
 	updateUser = (newName, newNumber, newAddress, newZipCode) => {
 		let {user} = this.state;
 		user.name = newName;
@@ -65,6 +69,7 @@ class App extends Component {
 									<Home {...props}
 												user={this.state.user}
 												updateAccount={this.updateAccount}
+												onClick={this.editProfile}
 									/>
 								}
 							/>
@@ -82,6 +87,7 @@ class App extends Component {
 									<Home {...props}
 												user={this.state.user}
 												updateAccount={this.updateAccount}
+												onClick={this.editProfile}
 									/>
 								}
 							/>
