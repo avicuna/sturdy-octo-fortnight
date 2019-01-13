@@ -1,5 +1,5 @@
 import React from 'react';
-import { UncontrolledCollapse, Button, CardBody, Card, Form, FormGroup, Label, Input } from 'reactstrap';
+import { UncontrolledCollapse, Button, CardBody, Card, Form, Input } from 'reactstrap';
 
 class Accounts extends React.Component {
 	constructor(props){
