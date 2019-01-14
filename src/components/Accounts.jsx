@@ -40,8 +40,8 @@ class Accounts extends React.Component {
 				<h4>Balance: ${account.balance}</h4>
 				<h4>Phone Number: {account.phone_number}</h4>
 				<h4>Address: {account.address}</h4>
+				<Button id="edit-account-button" value={account.id} onClick={() => this.toggleState(account.id)} color="primary" type="button">Edit Info</Button>
 			</CardBody>
-			<Button value={account.id} onClick={() => this.toggleState(account.id)} color="primary">Edit Info</Button>
 			</>
 		);
 	}
