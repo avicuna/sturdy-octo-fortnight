@@ -20,6 +20,6 @@ app.post('/user', (req, resp) => {
     resp.sendStatus(201);
 })
 
-const server = app.listen(port, () => {
+app.listen(port, () => {
     console.log(`App is running at http://localhost:${port}`);
 });
