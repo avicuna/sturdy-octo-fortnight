@@ -1,7 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import {shallow, mount} from 'enzyme';
-import App from '../App';
+import {shallow} from 'enzyme';
 import Accounts from './Accounts';
 
 describe('Accounts', () => {
